@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.form-container {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#cancelBtn {
+    background: #f44336;
+}
+
+#cancelBtn:hover {
+    background: #d32f2f;
+}
+
+.note-card {
+    background: #f9f9f9;
+    border-left: 4px solid #4CAF50;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.note-actions {
+    text-align: right;
+}
+
+.edit-btn, .delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.edit-btn {
+    color: #2196F3;
+}
+
+.delete-btn {
+    color: #f44336;
+}
